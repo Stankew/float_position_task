@@ -1,0 +1,178 @@
+header {
+    font-family: 'Myriad Pro';
+    color: #333333;
+    font-size: 24px;
+    font-weight: 400;
+    text-align: left;
+    padding-bottom: 14px;
+}
+
+footer {
+    font-family: 'Myriad Pro';
+    color: #333333;
+    font-size: 9px;
+    font-weight: 400;
+    text-align: center;
+}
+
+body {
+    height: 2000px;
+}
+
+article {
+    font-family: 'Myriad Pro';
+    color: #333333;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.container {
+    width: 605px;
+}
+
+.page1 {
+    margin: 0 auto;
+    padding: 41px 32px 48px 33px;
+    font-family: 'Myriad Pro';
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+    position: absolute;
+    bottom: 250px;
+    right: 259px;
+    left: 218px;
+    top: 200px;
+    z-index: 5;
+    width: 454px;
+    height: 657px;
+    border: 2px solid;
+    background-color: #ebebeb;
+}
+
+.page2 {
+    margin: 0 auto;
+    width: 519px;
+    height: 746px;
+    z-index: 3;
+    position: absolute;
+    left: 239px;
+    top: 220px;
+    bottom: 230px;
+    right: 238px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #cccccc;
+}
+
+.page3 {
+    margin: 0 auto;
+    width: 519px;
+    height: 746px;
+    z-index: 1;
+    position: absolute;
+    left: 258px;
+    top: 239px;
+    bottom: 211px;
+    right: 219px;
+    border-width: 2px;
+    border-style: solid;
+    background-color: #acacac;
+}
+
+.pic1 {
+    width: 207px;
+    height: 111px;
+    float: left;
+    padding: 0px 21px 13px 0px;
+}
+
+.pic2 {
+    width: 140px;
+    height: 140px;
+    float: right;
+    margin-bottom: 10px;
+}
+
+.parent:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.bm1 {
+    margin: 0 auto;
+    z-index: 6;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+    background-color: #f68e56;
+    width: 107px;
+    height: 31px;
+    position: absolute;
+    bottom: 921px;
+    right: 173px;
+    left: 712px;
+    top: 240px;
+}
+
+.bm2 {
+    margin: 0 auto;
+    z-index: 4;
+    position: absolute;
+    bottom: 902px;
+    right: 190px;
+    left: 711px;
+    top: 263px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+    background-color: #39b54a;
+    width: 95px;
+    height: 31px;
+}
+
+.bm3 {
+    margin: 0 auto;
+    z-index: 2;
+    position: absolute;
+    bottom: 878px;
+    right: 203px;
+    left: 698px;
+    top: 287px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    border-width: 2px;
+    border-color: #000000;
+    border-style: solid;
+    background-color: #00aeef;
+    width: 95px;
+    height: 31px;
+}
+
+.share {
+    position: fixed;
+    font-family: 'Myriad Pro';
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    border-width: 1px;
+    border-color: #362f2d;
+    border-style: solid;
+    background-color: #fbaf5d;
+    width: 87px;
+    height: 59px;
+    right: 1px;
+    bottom: 1px;
+    padding-top: 10px;
+}
+
+.share img {
+    margin-top: 11px;
+}
